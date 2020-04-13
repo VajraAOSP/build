@@ -57,3 +57,4 @@ PRODUCT_PACKAGES += \
     ViPER4Android
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/vaosp.mk)
